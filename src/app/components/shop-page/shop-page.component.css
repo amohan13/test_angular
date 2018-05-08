@@ -1,0 +1,29 @@
+#suggestion {
+    border: tan;
+    color:black;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace,'Sree Krushnadevaraya','Suranna','Ramaraja',"Mukta Malar";
+
+}
+#suggestion:hover{
+    background-color: rgb(235, 229, 229);
+}
+
+
+.search-box{
+  width:400px;
+}
+
+.search-btn{
+  width:40px;
+}
+
+.dropdown-item {
+  cursor: pointer;
+}
+
+.default-text {
+  size:2rem;
+  text-align: center;
+}

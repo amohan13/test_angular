@@ -1,0 +1,33 @@
+@media (min-width: 768px) {
+	.user-sidebar {
+		position: fixed;
+		width: 270px;
+		height: 100%;
+	}
+
+	.user-content {
+		margin-left: 270px; 
+	}
+
+	.active {
+		border: 1px solid #018b8b;
+		width: 210px;
+	}
+
+	.inactive {
+		border-bottom: 1px solid lightgrey;
+	}
+	
+	.active:active,
+	.active:focus,
+	.active.active {
+		background-image: none;
+		outline: 0;
+		-webkit-box-shadow: none;
+		box-shadow: none;
+	}
+}
+
+.user-sidebar li {
+	cursor: pointer;
+}
